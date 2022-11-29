@@ -8,9 +8,10 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    client: {
-      directory: path.resolve(__dirname, 'public'),
+    static: {
+      directory: path.join(__dirname, 'public'),
     },
-    watchContentBase: true,
+    compress: true,
+    port: 9000,
   },
 };

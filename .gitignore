@@ -1,2 +1,6 @@
 .DS_Store
 node_modules/
+
+# Собранные файлы
+ public/bundle.js
+ public/bundle.js.map
